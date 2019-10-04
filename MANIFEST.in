@@ -1,0 +1,2 @@
+include DeviceTestFramework/CmxDevices/MediaAccess/CmxHardwareAccess/json/*.json
+
