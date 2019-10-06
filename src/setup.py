@@ -1,12 +1,9 @@
 from setuptools import find_packages, setup
 
-# Description
-# https://realpython.com/pypi-publish-python-package/
-
 setup(
     name='python-package-template',
-    packages=find_packages(exclude=("tests",)),
-    version='0.1',
+    packages=find_packages(exclude=("PythonPackageTemplateTests",)),
+    version='1.0.0',
     license='MIT',
     description='This is a simple and small python package template.',
     long_description_content_type="text/markdown",

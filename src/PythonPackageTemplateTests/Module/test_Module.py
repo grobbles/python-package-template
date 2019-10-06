@@ -1,7 +1,7 @@
 
 from unittest import TestCase
 
-from src import Module
+from PythonPackageTemplate import Module
 
 
 class TestModule(TestCase):

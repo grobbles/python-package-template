@@ -6,15 +6,17 @@ A simple and small python package template with unit test
 
 ```
 ProjectRoot/
-    --> src/
-        --> PackageModule/
-        --> setup.py
-        --> setup.cfg
-    --> tests/
-        --> test.py
-    --> LICENSE
-    --> README.md
-    --> run.sh
+    ├── src/
+    │   ├── ProjectName/
+    │   │   ├──Main.yp
+    │   │   └── ...
+    │   ├── ProjectNameTests/
+    │   │   └── test_Main.py
+    │   ├── setup.py
+    │   └── setup.cfg
+    ├── LICENSE
+    ├── README.md
+    └── run.sh
 ```
 
 ## Git Workflow

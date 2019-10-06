@@ -1,7 +1,7 @@
 
 from unittest import TestCase
 
-from src import Main
+from PythonPackageTemplate import Main
 
 
 class TestMain(TestCase):
@@ -15,7 +15,7 @@ class TestMain(TestCase):
     pass
 
     def test_sub(self):
-    
+
         main = Main()
         result = main.sub(2, 2)
         assert result == 0

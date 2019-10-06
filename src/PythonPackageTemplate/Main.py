@@ -1,6 +1,7 @@
 from .Module import Module
 
-class Main():
+
+class Main(object):
 
     def __init__(self):
         print("hallo")
@@ -12,6 +13,5 @@ class Main():
 
     def sub(self, x: int, y: int) -> int:
         module = Module()
-
         return module.sub(x, y)
-    pass
+        pass
