@@ -24,19 +24,23 @@ Arguments:
 
     -rT | --runTests    : run the uint tests
 
+    -rP | --runProject  : run main function from project 
+
 EOF
 }
 
 ############################################################################################################
 ## Start Function Block
 function build() {
-    cd src
     python3 setup.py sdist bdist_wheel
-    cd ..
 }
 
 function runTests() {
-    pytest src/${PACKAGE_NAME}Tests
+    pytest Test${PACKAGE_NAME}
+}
+
+function runProject() {
+    python3 -m ${PACKAGE_NAME}.Main
 }
 
 function install() {
@@ -86,6 +90,12 @@ case "$1" in
     -u | --uninstall)
         echo "uninstall the project"
         uninstall
+        exit $?
+        ;;
+
+    -rP | --runProject)
+        echo "run project"
+        runProject
         exit $?
         ;;
 

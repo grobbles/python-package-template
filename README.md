@@ -6,14 +6,13 @@ A simple and small python package template with unit test
 
 ```
 ProjectRoot/
-    ├── src/
-    │   ├── ProjectName/
-    │   │   ├──Main.yp
-    │   │   └── ...
-    │   ├── ProjectNameTests/
-    │   │   └── test_Main.py
-    │   ├── setup.py
-    │   └── setup.cfg
+    ├── ProjectName/
+    │   ├──Main.yp
+    │   └── ...
+    ├── ProjectNameTests/
+    │   └── test_Main.py
+    ├── setup.py
+    ├── setup.cfg
     ├── LICENSE
     ├── README.md
     └── run.sh
