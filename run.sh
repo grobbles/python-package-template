@@ -36,7 +36,7 @@ function build() {
 }
 
 function runTests() {
-    pytest Test${PACKAGE_NAME}
+   python3 -m pytest ${PACKAGE_NAME}Tests
 }
 
 function runProject() {
