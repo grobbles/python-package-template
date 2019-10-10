@@ -2,7 +2,7 @@ from setuptools import find_packages, setup
 
 setup(
     name='python-package-template',
-    packages=find_packages(exclude=("TestPythonPackageTemplate",)),
+    packages=find_packages(exclude=("PythonPackageTemplateTests",)),
     version='1.0.0',
     license='MIT',
     description='This is a simple and small python package template.',
